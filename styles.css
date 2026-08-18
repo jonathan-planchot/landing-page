@@ -22,7 +22,7 @@ body {
 .random-section,
 .testimony-section,
 .footer {
-    padding: 0px 150px;
+    padding: 0px 300px;
 }
 
 .header {
@@ -60,13 +60,12 @@ body {
     align-items: flex-start;
 }
 
-.hero-image-placeholder {
+.hero-section img {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9faf88f;
-    color: #E5E7EB;
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .hero-title {
@@ -163,7 +162,7 @@ button {
 }
 
 .cta {
-    margin: 80px 150px 40px 150px;
+    margin: 80px 300px 40px 300px;
     padding: 40px 80px;
     border-radius: 8px;
     display: flex;
